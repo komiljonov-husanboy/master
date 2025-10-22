@@ -1,0 +1,40 @@
+.containers{
+    max-width: 1239px;
+    margin: 0 auto;
+    padding : 0 16px;
+
+}
+
+
+.bg__image{
+    background-image: url("../images/bg_shipimage.svg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:center;
+    position: relative;
+}
+
+.scroll__bg1{
+    position: absolute;
+    left: 89.3%;
+    top: 47%;
+}
+
+.scroll__bg2{
+    position: absolute;
+    left: 10%;
+     top: 47%;
+}
+
+.bg__image-scrol{
+    background-image: url(../images/slider_scrol.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    
+}
+.item__bg-image{
+background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("../images/young_man .jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
